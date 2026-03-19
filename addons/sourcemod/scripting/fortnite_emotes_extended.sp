@@ -186,7 +186,7 @@ public Plugin myinfo =
 	author		= "Kodua, Franc1sco franug, TheBO$$, Foxhound, lechuga",
 	description = "This plugin is for demonstration of some animations from Fortnite in L4D",
 	version		= "1.7.0",
-	url			= "https://github.com/lechuga16/Fortnite-Emotes-Extended"
+	url			= "https://github.com/AoC-Gamers/Fortnite-Emotes-Extended"
 };
 
 /*****************************************************************

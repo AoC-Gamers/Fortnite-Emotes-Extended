@@ -133,10 +133,10 @@ Si otro plugin necesita detectar si un cliente esta ejecutando un emote, solo de
 
 No se deben redistribuir las includes locales del proyecto como parte de una API externa.
 
-## Fork
+## Origen
 
-Este proyecto es un fork de:
+Este proyecto parte del trabajo publicado en:
 
 - https://github.com/Franc1sco/Fortnite-Emotes-Extended/tree/l4d
 
-La variante mantenida aqui incorpora mejoras enfocadas a Left 4 Dead 2, al empaquetado reproducible por CI, al consumo por artifacts de GitHub Releases y a la integracion con el stack competitivo de AoC.
+La variante mantenida aqui evoluciona como un repositorio independiente, con mejoras enfocadas a Left 4 Dead 2, al empaquetado reproducible por CI, al consumo por artifacts de GitHub Releases y a la integracion con el stack competitivo de AoC.
