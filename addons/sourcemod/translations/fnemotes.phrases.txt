@@ -1,0 +1,152 @@
+"Phrases"
+{
+	"TAG"
+	{
+		"en"			"[{olive}Emotes{default}]"
+	}
+
+	"USAGE"
+	{
+		"en"			"{olive}Usage{default}"
+	}
+
+	"NO_DANCES_ACCESS_FLAG"
+	{
+		"en"			"You don't have access to use dances!!"
+	}
+
+	"NO_EMOTES_ACCESS_FLAG"
+	{
+		"en"			"You don't have access to use emotes!!"
+	}
+
+	"NOTSURVIVOR"
+	{
+		"en"			"You are not a survivor!"
+	}
+
+	"PAUSE_MODE"
+	{
+		"en"			"You can't use emotes in pause!"
+	}
+
+	"MUST_BE_ALIVE"
+	{
+		"en"			"You must be alive to use this!"
+	}
+
+	"STAY_ON_GROUND"
+	{
+		"en"			"You must stay on the ground to use this!"
+	}
+
+	"COOLDOWN_EMOTES"
+	{
+		"en"			"It is on cooldown!"
+	}
+
+	"AMIN_1_INVALID"
+	{
+		"en"			"Argument 1 is invalid!!!"
+	}
+	
+	"CANNOT_USE_NOW"
+	{
+		"en"			"You can't use it right now!"
+	}
+
+	"INVALID_CONFIG_ID"
+	{
+		"en"			"The Config ID is {red}invalid{default}, It must be between ({green}1{default}-{green}%d{default}) or {green}0{default} for random"
+	}
+
+	"INVALID_EMOTE_ID"
+	{
+		"en"			"The Emote ID is {red}invalid{default}, It must be in the range ({green}1{default}-{green}%d{default}) or {green}0{default} for random"
+	}
+
+	"INVALID_DANCE_ID"
+	{
+		"en"			"The Dance ID is {red}invalid{default}, It must be in the range ({green}1{default}-{green}%d{default}) or {green}0{default} for random"
+	}
+
+	"RANDOM_EMOTE"
+	{
+		"en"			"Random Emote"
+	}
+
+	"RANDOM_DANCE"
+	{
+		"en"			"Random Dance"
+	}	
+
+	"EMOTES_LIST"
+	{
+		"en"			"Emotes List"
+	}
+
+	"DANCES_LIST"
+	{
+		"en"			"Dances List"
+	}		
+
+	"EMOTE_PLAYER"
+	{
+		"en"			"Emote player"
+	}	
+
+	"SELECT_EMOTE"
+	{
+		"en"			"Select Emote"
+	}
+	
+	"TITLE_MAIM_MENU"
+	{
+		"en"			"Emotes and Dances"
+	}
+	
+	"TITLE_EMOTES_MENU"
+	{
+		"en"			"Emotes"
+	}	
+
+	"ERROR_EMOTE_INFO"
+	{
+		"en"			"{red}error{default} getting info from {red}%s{default}"
+	}
+
+	"TITLE_DANCES_MENU"
+	{
+		"en"			"Dances"
+	}
+	
+	"LATLOAD"
+	{
+		"en"			"The plugin loaded late, it is disabled until the next chapter."
+	}
+
+	"EMOTES_LIST_CONSOLE"
+	{
+		"en"			"List of emotes in your {green}console{default}"
+	}
+
+	"DANCE_LIST_CONSOLE"
+	{
+		"en"			"List of dances in your {green}console{default}"
+	}
+
+	"FILE"
+	{
+		"en"			"File"
+	}
+
+	"CODE"
+	{
+		"en"			"Code"
+	}
+
+	"NAME"
+	{
+		"en"			"Name"
+	}
+}

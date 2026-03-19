@@ -1,0 +1,152 @@
+"Phrases"
+{
+	"TAG"
+	{
+		"es"			"[{olive}Emotes{default}]"
+	}
+	
+	"USAGE"
+	{
+		"es"			"{olive}Uso{default}"
+	}
+
+	"NO_DANCES_ACCESS_FLAG"
+	{
+		"es"			"No tienes acceso a usar dances!!"
+	}
+
+	"NO_EMOTES_ACCESS_FLAG"
+	{
+		"es"			"No tienes acceso a usar emotes!!"
+	}
+
+	"NOTSURVIVOR"
+	{
+		"es"			"No eres un sobreviviente!"
+	}
+
+	"PAUSE_MODE"
+	{
+		"es"			"No puedes usar emotes en pause!"
+	}
+
+	"MUST_BE_ALIVE"
+	{
+		"es"			"Debes estar vivo para usar eso!"
+	}
+
+	"STAY_ON_GROUND"
+	{
+		"es"			"Debes estar en el suelo para usar eso!"
+	}
+
+	"COOLDOWN_EMOTES"
+	{
+		"es"			"Está enfriándose!"
+	}
+
+	"AMIN_1_INVALID"
+	{
+		"es"			"El Argumento 1 es inválido"
+	}
+	
+	"CANNOT_USE_NOW"
+	{
+		"es"			"No puedes usar eso ahora mismo!"
+	}
+
+	"INVALID_CONFIG_ID"
+	{
+		"es"			"El ID de Config {red}inválido{default}, Debe estar entre ({green}1{default}-{green}%d{default}) o {green}0{default} para aleatorio"
+	}
+
+	"INVALID_EMOTE_ID"
+	{
+		"es"			"El ID del Emote es {red}inválido{default}, Debe estar en el rango ({green}1{default}-{green}%d{default}) o {green}0{default} para aleatorio"
+	}
+
+	"INVALID_DANCE_ID"
+	{
+		"es"			"El ID del Baile es {red}inválido{default}, Debe estar en el rango ({green}1{default}-{green}%d{default}) o {green}0{default} para aleatorio"
+	}
+
+	"RANDOM_EMOTE"
+	{
+		"es"			"Emote Aleatorio"
+	}
+
+	"RANDOM_DANCE"
+	{
+		"es"			"Baile Aleatorio"
+	}	
+
+	"EMOTES_LIST"
+	{
+		"es"			"Lista de Emotes"
+	}
+
+	"DANCES_LIST"
+	{
+		"es"			"Lista de Bailes"
+	}		
+
+	"EMOTE_PLAYER"
+	{
+		"es"			"Reproductor de Emotes"
+	}	
+
+	"SELECT_EMOTE"
+	{
+		"es"			"Seleccionar Emote"
+	}
+	
+	"TITLE_MAIM_MENU"
+	{
+		"es"			"Emotes y Bailes"
+	}
+	
+	"TITLE_EMOTES_MENU"
+	{
+		"es"			"Emotes"
+	}	
+
+	"ERROR_EMOTE_INFO"
+	{
+		"es"			"{red}error{default} al obtener informacion de {red}%s{default}"
+	}
+
+	"TITLE_DANCES_MENU"
+	{
+		"es"			"Bailes"
+	}
+
+	"LATLOAD"
+	{
+		"es"			"El complemento cargo de forma tardia, se deshabilita hasta el siguiente capitulo."
+	}
+
+	"EMOTES_LIST_CONSOLE"
+	{
+		"es"			"Lista de emotes en tu {green}consola{default}"
+	}
+
+	"DANCE_LIST_CONSOLE"
+	{
+		"es"			"Lista de bailes en tu {green}consola{default}"
+	}
+
+	"FILE"
+	{
+		"es"			"Archivo"
+	}
+
+	"CODE"
+	{
+		"es"			"Código"
+	}
+
+	"NAME"
+	{
+		"es"			"Nombre"
+	}
+}
