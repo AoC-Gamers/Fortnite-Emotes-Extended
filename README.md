@@ -28,10 +28,6 @@ El plugin registra estos comandos para los jugadores y administradores:
 
 ## Configuracion relevante
 
-La autoexec principal queda en:
-
-- cfg/sourcemod/fortnite_emotes_extended.cfg
-
 ConVars relevantes:
 
 - sm_emotes_cooldown
@@ -74,26 +70,6 @@ Canales:
 - channel/latest
 - channel/develop
 
-## Contenido del paquete
-
-El artefacto generado por CI incluye:
-
-- addons/sourcemod/plugins/vip/fortnite_emotes_extended.smx
-- addons/sourcemod/scripting/fortnite_emotes_extended.sp
-- addons/sourcemod/scripting/fnemotes/
-- addons/sourcemod/scripting/include/fnemotes.inc
-- addons/sourcemod/data/fnemotes/
-- addons/sourcemod/translations/
-- cfg/sourcemod/fortnite_emotes_extended.cfg
-- models/fortnite_emotes/original/
-- sound/fortnite_emotes/original/
-
-El plugin compilado se distribuye en:
-
-- addons/sourcemod/plugins/vip/fortnite_emotes_extended.smx
-
-Ese layout coincide con la forma en que AoC lo carga dentro del stack competitivo.
-
 ## Includes publicas
 
 Solo se distribuye la include publica:
@@ -124,7 +100,7 @@ En particular:
 
 1. Descarga el zip del canal deseado desde GitHub Releases.
 2. Extrae el contenido en la raiz de left4dead2 del servidor.
-3. Verifica que el plugin quede en addons/sourcemod/plugins/vip/.
+3. Verifica que el plugin quede en addons/sourcemod/plugins/.
 4. Reinicia el servidor o carga el plugin.
 
 ## Uso desde otros plugins
@@ -133,10 +109,10 @@ Si otro plugin necesita detectar si un cliente esta ejecutando un emote, solo de
 
 No se deben redistribuir las includes locales del proyecto como parte de una API externa.
 
-## Fork
+## Origen
 
-Este proyecto es un fork de:
+Este proyecto parte del trabajo publicado en:
 
 - https://github.com/Franc1sco/Fortnite-Emotes-Extended/tree/l4d
 
-La variante mantenida aqui incorpora mejoras enfocadas a Left 4 Dead 2, al empaquetado reproducible por CI, al consumo por artifacts de GitHub Releases y a la integracion con el stack competitivo de AoC.
+La variante mantenida aqui evoluciona como un repositorio independiente, con mejoras enfocadas a Left 4 Dead 2, al empaquetado reproducible por CI, al consumo por artifacts de GitHub Releases y a la integracion con el stack competitivo de AoC.
