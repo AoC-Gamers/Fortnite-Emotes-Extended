@@ -28,10 +28,6 @@ El plugin registra estos comandos para los jugadores y administradores:
 
 ## Configuracion relevante
 
-La autoexec principal queda en:
-
-- cfg/sourcemod/fortnite_emotes_extended.cfg
-
 ConVars relevantes:
 
 - sm_emotes_cooldown
@@ -74,26 +70,6 @@ Canales:
 - channel/latest
 - channel/develop
 
-## Contenido del paquete
-
-El artefacto generado por CI incluye:
-
-- addons/sourcemod/plugins/vip/fortnite_emotes_extended.smx
-- addons/sourcemod/scripting/fortnite_emotes_extended.sp
-- addons/sourcemod/scripting/fnemotes/
-- addons/sourcemod/scripting/include/fnemotes.inc
-- addons/sourcemod/data/fnemotes/
-- addons/sourcemod/translations/
-- cfg/sourcemod/fortnite_emotes_extended.cfg
-- models/fortnite_emotes/original/
-- sound/fortnite_emotes/original/
-
-El plugin compilado se distribuye en:
-
-- addons/sourcemod/plugins/vip/fortnite_emotes_extended.smx
-
-Ese layout coincide con la forma en que AoC lo carga dentro del stack competitivo.
-
 ## Includes publicas
 
 Solo se distribuye la include publica:
@@ -124,7 +100,7 @@ En particular:
 
 1. Descarga el zip del canal deseado desde GitHub Releases.
 2. Extrae el contenido en la raiz de left4dead2 del servidor.
-3. Verifica que el plugin quede en addons/sourcemod/plugins/vip/.
+3. Verifica que el plugin quede en addons/sourcemod/plugins/.
 4. Reinicia el servidor o carga el plugin.
 
 ## Uso desde otros plugins

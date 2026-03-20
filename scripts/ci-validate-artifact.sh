@@ -17,15 +17,15 @@ import sys
 
 root_dir, artifact_dir = sys.argv[1], sys.argv[2]
 
-plugin_path = os.path.join(artifact_dir, "addons", "sourcemod", "plugins", "vip", "fortnite_emotes_extended.smx")
-root_plugin_path = os.path.join(artifact_dir, "addons", "sourcemod", "plugins", "fortnite_emotes_extended.smx")
+plugin_path = os.path.join(artifact_dir, "addons", "sourcemod", "plugins", "fortnite_emotes_extended.smx")
+legacy_plugin_path = os.path.join(artifact_dir, "addons", "sourcemod", "plugins", "vip", "fortnite_emotes_extended.smx")
 include_dir = os.path.join(artifact_dir, "addons", "sourcemod", "scripting", "include")
 
 if not os.path.isfile(plugin_path):
     raise SystemExit(f"Missing compiled plugin: {plugin_path}")
 
-if os.path.exists(root_plugin_path):
-    raise SystemExit(f"Plugin should not exist at root plugins directory: {root_plugin_path}")
+if os.path.exists(legacy_plugin_path):
+    raise SystemExit(f"Plugin should not exist at legacy vip path: {legacy_plugin_path}")
 
 include_entries = sorted(entry for entry in os.listdir(include_dir) if os.path.isfile(os.path.join(include_dir, entry)))
 if include_entries != ["fnemotes.inc"]:
